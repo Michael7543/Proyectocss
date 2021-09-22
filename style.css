@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(  #e3a2e9 30%, #b440ab 100%);
+    background-image: linear-gradient( 135deg, #B44FBD 10%, #D939CD 100%);
 }
 .contenedor{
     display: flex;
@@ -12,29 +12,31 @@ body{
     display:inline-flex;
     margin: -100px 80px ;
     position: relative;
-    bottom:100px;       
+    bottom:130px;       
 }
 .tarjeta-img1{
     border-radius: 6px;
     background: white;
     box-shadow: 1px 1px 5px; 
     height:400px;
-    width: 300px;  
+    width: 300px; 
+    
 }
 .tarjeta-img2{
     border-radius: 6px;
     background: white;
     box-shadow: 1px 1px 5px;
-    height:450px;
-    width: 300px;  
-    bottom: 24px;  
+    height:400px;
+    width: 300px;
+        
 }
 .tarjeta-img3{
     border-radius: 6px;
     background: white;
     box-shadow: 1px 1px 5px;
     height:400px;
-    width: 300px;    
+    width: 300px;
+        
 }
 .tarjeta-img1 img{
     width: 120px;
@@ -51,9 +53,10 @@ body{
     height: 120px;
     border-radius: 50% 50% 50% 50%;
     align-items: center;
-    margin: 94px;
+    margin: 30px;
     position: absolute;
-    bottom: 200px;
+    bottom: 205px;
+    right: 60px;
    
 }
 .tarjeta-img3 img{
@@ -63,7 +66,7 @@ body{
     align-items: center;
     margin: 30px;
     position: absolute;
-    bottom: 225px; 
+    bottom: 205px; 
     right: 60px;
 }
 .precio{
@@ -99,5 +102,29 @@ p{
     margin: 50px;
 }
 .contenido, .valor{
-    bottom: -20px;
+    bottom: 40px;
+}
+.tarjeta-img1:hover{
+    -webkit-transform:scale(1.10);
+    -moz-transform:scale(1.10);
+    -ms-transform:scale(1.10);
+    -o-transform:scale(1.10);
+    transform:scale(1.10);
+    z-index: 3;
+}
+.tarjeta-img2:hover{
+    -webkit-transform:scale(1.10);
+    -moz-transform:scale(1.10);
+    -ms-transform:scale(1.10);
+    -o-transform:scale(1.10);
+    transform:scale(1.10);
+    z-index: 3;
+}
+.tarjeta-img3:hover{
+    -webkit-transform:scale(1.10);
+    -moz-transform:scale(1.10);
+    -ms-transform:scale(1.10);
+    -o-transform:scale(1.10);
+    transform:scale(1.10);
+    z-index: 3;  
 }
