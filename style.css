@@ -21,3 +21,38 @@ body{
     height:400px;
     width: 300px;  
 }
+.tarjeta-img2{
+    border-radius: 6px;
+    background: white;
+    box-shadow: 1px 1px 5px;
+    height:450px;
+    width: 300px;  
+    bottom: 24px;  
+}
+.tarjeta-img3{
+    border-radius: 6px;
+    background: white;
+    box-shadow: 1px 1px 5px;
+    height:400px;
+    width: 300px;    
+}
+.tarjeta-img1 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50% 50% 50% 50%;
+    align-items: center;
+    margin: 30px;
+    position: absolute;
+    bottom: 205px;
+    right: 60px;
+}
+.tarjeta-img2 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50% 50% 50% 50%;
+    align-items: center;
+    margin: 94px;
+    position: absolute;
+    bottom: 200px;
+   
+}
