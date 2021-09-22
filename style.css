@@ -56,3 +56,48 @@ body{
     bottom: 200px;
    
 }
+.tarjeta-img3 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50% 50% 50% 50%;
+    align-items: center;
+    margin: 30px;
+    position: absolute;
+    bottom: 225px; 
+    right: 60px;
+}
+.precio{
+    font-size: 40px;
+    color:#B32EAE;
+    font-family: 'Impact', arial;
+    text-align: center;
+    bottom: 40px;
+    
+}
+.titulo{
+    color:#B32EAE;
+    font-family: 'Impact', arial;
+    text-align: center;
+    font-size: 30px;
+}
+.tarjeta-img1, .contenido, p{
+    text-align: justify; 
+    position: relative;
+}
+.tarjeta-img2, .contenido, p{
+    text-align: justify;  
+    position: relative;
+}
+.tarjeta-img3, .contenido, p{
+    text-align: justify;
+    position: relative;
+}
+.contenido{
+    top: 150px;
+}
+p{
+    margin: 50px;
+}
+.contenido, .valor{
+    bottom: -20px;
+}
