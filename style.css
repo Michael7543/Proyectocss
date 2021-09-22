@@ -1,0 +1,23 @@
+body{
+    background-image: linear-gradient(  #e3a2e9 30%, #b440ab 100%);
+}
+.contenedor{
+    display: flex;
+    background-image: linear-gradient(  #821cbd 9%, #340057 100%);
+    padding: 280px 50px 30px 13px;
+    margin: 50px 130px;
+    border-radius:10px 10px 10px 10px;    
+}
+.tarjeta{
+    display:inline-flex;
+    margin: -100px 80px ;
+    position: relative;
+    bottom:100px;       
+}
+.tarjeta-img1{
+    border-radius: 6px;
+    background: white;
+    box-shadow: 1px 1px 5px; 
+    height:400px;
+    width: 300px;  
+}
