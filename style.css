@@ -6,13 +6,15 @@ body{
     background-image: linear-gradient(  #821cbd 9%, #340057 100%);
     padding: 280px 50px 30px 13px;
     margin: 50px 130px;
-    border-radius:10px 10px 10px 10px;    
+    border-radius:10px 10px 10px 10px;
+
 }
 .tarjeta{
     display:inline-flex;
     margin: -100px 80px ;
     position: relative;
-    bottom:130px;       
+    bottom:130px; 
+      
 }
 .tarjeta-img1{
     border-radius: 6px;
@@ -20,6 +22,7 @@ body{
     box-shadow: 1px 1px 5px; 
     height:400px;
     width: 300px; 
+    right: 10px;
     
 }
 .tarjeta-img2{
@@ -28,6 +31,7 @@ body{
     box-shadow: 1px 1px 5px;
     height:400px;
     width: 300px;
+    
         
 }
 .tarjeta-img3{
@@ -36,6 +40,7 @@ body{
     box-shadow: 1px 1px 5px;
     height:400px;
     width: 300px;
+    left: 10px;
         
 }
 .tarjeta-img1 img{
@@ -127,4 +132,26 @@ p{
     -o-transform:scale(1.10);
     transform:scale(1.10);
     z-index: 3;  
+}
+@media  screen and (max-width: 400px){
+    body{
+        max-width: 100%;
+    }
+    .contenedor{
+        margin-left: -90px;
+        background-image: none;
+    }
+    .tarjeta{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+    .tarjeta-img1{
+        bottom:30px;
+    } 
+    .tarjeta-img3{
+        top: 30px;
+    }
 }
