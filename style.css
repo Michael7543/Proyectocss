@@ -150,6 +150,11 @@ p{
     }
     .tarjeta-img1{
         bottom:30px;
+        margin-left: 20px;
+    }
+    .tarjeta-img2{
+        margin-left: 10px;
+
     } 
     .tarjeta-img3{
         top: 30px;
